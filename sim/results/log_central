@@ -1,0 +1,171 @@
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\multi_agent.py:100: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:62: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From D:\anaconda3\envs\env1\lib\site-packages\tflearn\initializations.py:165: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From D:\anaconda3\envs\env1\lib\site-packages\tflearn\initializations.py:110: calling UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From D:\anaconda3\envs\env1\lib\site-packages\tensorflow\python\util\deprecation.py:507: UniformUnitScaling.__init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:29: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:29: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:35: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:49: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:58: The name tf.train.RMSPropOptimizer is deprecated. Please use tf.compat.v1.train.RMSPropOptimizer instead.
+
+WARNING:tensorflow:From D:\anaconda3\envs\env1\lib\site-packages\tensorflow\python\training\rmsprop.py:119: calling Ones.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:277: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\a3c.py:284: The name tf.summary.merge_all is deprecated. Please use tf.compat.v1.summary.merge_all instead.
+
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\multi_agent.py:112: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+WARNING:tensorflow:Issue encountered when serializing data_preprocessing.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'NoneType' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing data_augmentation.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'NoneType' object has no attribute 'name'
+WARNING:tensorflow:From D:\Project\pythonProject1\pythonProject1\sim\multi_agent.py:113: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From D:\anaconda3\envs\env1\lib\site-packages\tensorflow\python\training\saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+INFO:tensorflow:Restoring parameters from ./results/nn_model_ep_3600.ckpt
+INFO:root:Epoch: 1 TD_loss: -2.6502486344159637 Avg_reward: 28.18472071607534 Avg_entropy: 0.12059702777264523
+INFO:root:Epoch: 2 TD_loss: -7.019737070232504 Avg_reward: -7.8248998338559 Avg_entropy: 0.1391309688926009
+INFO:root:Epoch: 3 TD_loss: -1.0156668735182923 Avg_reward: 46.074226071168894 Avg_entropy: 0.13429804108556012
+INFO:root:Epoch: 4 TD_loss: 4.98619493485379 Avg_reward: 43.24335539465787 Avg_entropy: 0.11885163207897896
+INFO:root:Epoch: 5 TD_loss: -6.083711788904386 Avg_reward: 33.22473622073665 Avg_entropy: 0.1316919571610911
+INFO:root:Epoch: 6 TD_loss: -6.694207954252948 Avg_reward: -35.25881931224365 Avg_entropy: 0.12372668957266489
+INFO:root:Epoch: 7 TD_loss: -6.072584820530491 Avg_reward: -0.6700868744798063 Avg_entropy: 0.13460651202994856
+INFO:root:Epoch: 8 TD_loss: 0.6637801317739686 Avg_reward: 44.69493528546984 Avg_entropy: 0.1387484854157504
+INFO:root:Epoch: 9 TD_loss: -7.022583341170223 Avg_reward: 24.946034338331756 Avg_entropy: 0.12937203656477345
+INFO:root:Epoch: 10 TD_loss: -13.23696259751125 Avg_reward: -80.25962460662099 Avg_entropy: 0.09983762900609694
+INFO:root:Epoch: 11 TD_loss: 13.411582778186382 Avg_reward: -0.8475294924663341 Avg_entropy: 0.1272190199872867
+INFO:root:Epoch: 12 TD_loss: -1.5058591070557519 Avg_reward: 53.04626073488643 Avg_entropy: 0.13320958643425324
+INFO:root:Epoch: 13 TD_loss: -119.6935129289209 Avg_reward: -694.8872294802665 Avg_entropy: 0.10846026301521804
+INFO:root:Epoch: 14 TD_loss: 11.110068727405292 Avg_reward: -5.026641846875985 Avg_entropy: 0.13710216568450723
+INFO:root:Epoch: 15 TD_loss: -2.0684152063597256 Avg_reward: -85.10812978062398 Avg_entropy: 0.08615578865647605
+INFO:root:Epoch: 16 TD_loss: -99.71200118974474 Avg_reward: -421.21801655106395 Avg_entropy: 0.10876115101414191
+INFO:root:Epoch: 17 TD_loss: 8.642072387280061 Avg_reward: 15.087318193672322 Avg_entropy: 0.10373864912183701
+INFO:root:Epoch: 18 TD_loss: -1.184956687972718 Avg_reward: 4.619772220891795 Avg_entropy: 0.09976346114034086
+INFO:root:Epoch: 19 TD_loss: -3.4533154713605074 Avg_reward: 17.353559326041996 Avg_entropy: 0.11178181877330443
+INFO:root:Epoch: 20 TD_loss: 4.963640555499875 Avg_reward: 39.23017890162088 Avg_entropy: 0.1279934055552739
+INFO:root:Epoch: 21 TD_loss: -3.4721779575039577 Avg_reward: 17.0917504782529 Avg_entropy: 0.11221996520169643
+INFO:root:Epoch: 22 TD_loss: 3.1937644395746556 Avg_reward: 5.836148813149089 Avg_entropy: 0.14065447680154344
+INFO:root:Epoch: 23 TD_loss: 1.1624592997028453 Avg_reward: -12.624197875132678 Avg_entropy: 0.16593275774360575
+INFO:root:Epoch: 24 TD_loss: -8.3902946383779 Avg_reward: 24.82723607679445 Avg_entropy: 0.1337625572502754
+INFO:root:Epoch: 25 TD_loss: -1.629661833323872 Avg_reward: -32.81634887404187 Avg_entropy: 0.1135355711421412
+INFO:root:Epoch: 26 TD_loss: 6.123223081694625 Avg_reward: 30.76327493530578 Avg_entropy: 0.17650391959655531
+INFO:root:Epoch: 27 TD_loss: -7.82590946973145 Avg_reward: 26.943490519647295 Avg_entropy: 0.11451007941498663
+INFO:root:Epoch: 28 TD_loss: 0.7274335247803796 Avg_reward: 14.56650953602993 Avg_entropy: 0.10092637655808588
+INFO:root:Epoch: 29 TD_loss: 13.277289240248864 Avg_reward: 32.23972160412068 Avg_entropy: 0.13276313883071209
+INFO:root:Epoch: 30 TD_loss: -20.17808382234799 Avg_reward: 5.375672304905651 Avg_entropy: 0.1294398558392398
+INFO:root:Epoch: 31 TD_loss: -4.2264682343068705 Avg_reward: -18.46450503756705 Avg_entropy: 0.10219787021035079
+INFO:root:Epoch: 32 TD_loss: 8.061540842911766 Avg_reward: 58.974595738388786 Avg_entropy: 0.14928339578602598
+INFO:root:Epoch: 33 TD_loss: -32.93381564186253 Avg_reward: -51.20402069686937 Avg_entropy: 0.18603158178998128
+INFO:root:Epoch: 34 TD_loss: -4.51288185509434 Avg_reward: -1.9046905516851118 Avg_entropy: 0.11686844936888348
+INFO:root:Epoch: 35 TD_loss: -144.72897707873264 Avg_reward: -604.9748022388801 Avg_entropy: 0.1196827427095049
+INFO:root:Epoch: 36 TD_loss: 4.033987209310226 Avg_reward: 43.59111078304057 Avg_entropy: 0.13803899321112967
+INFO:root:Epoch: 37 TD_loss: 3.2139577248891826 Avg_reward: -32.24801029640724 Avg_entropy: 0.12753942239667587
+INFO:root:Epoch: 38 TD_loss: -8.968649777412303 Avg_reward: -56.914496871131725 Avg_entropy: 0.11416020496711334
+INFO:root:Epoch: 39 TD_loss: -1.111790776949151 Avg_reward: 24.62807062080524 Avg_entropy: 0.16225862314410927
+INFO:root:Epoch: 40 TD_loss: 3.645286454021958 Avg_reward: 44.12209257869074 Avg_entropy: 0.14143592112336795
+INFO:root:Epoch: 41 TD_loss: -5.465064429226948 Avg_reward: 21.42793626230299 Avg_entropy: 0.17161732876292252
+INFO:root:Epoch: 42 TD_loss: -1.919898964858214 Avg_reward: -7.715187607412712 Avg_entropy: 0.09764085564260022
+INFO:root:Epoch: 43 TD_loss: 3.3677798847828364 Avg_reward: 39.12223840966906 Avg_entropy: 0.15363770472563057
+INFO:root:Epoch: 44 TD_loss: -7.792286171285144 Avg_reward: -0.09435112584767946 Avg_entropy: 0.15909207293784408
+INFO:root:Epoch: 45 TD_loss: -5.29676873797209 Avg_reward: -47.57457229915716 Avg_entropy: 0.11490765226435057
+INFO:root:Epoch: 46 TD_loss: 0.11724757469362403 Avg_reward: -41.55964332565435 Avg_entropy: 0.15268891961758715
+INFO:root:Epoch: 47 TD_loss: -3.6897448116756766 Avg_reward: 29.82471820323276 Avg_entropy: 0.1234591694286953
+INFO:root:Epoch: 48 TD_loss: 5.868222784188285 Avg_reward: 24.92140616484774 Avg_entropy: 0.1041820816626613
+INFO:root:Epoch: 49 TD_loss: -12.11465270410596 Avg_reward: 18.89522648089778 Avg_entropy: 0.10594919194668549
+INFO:root:Epoch: 50 TD_loss: 13.245462819790367 Avg_reward: 49.387004984763145 Avg_entropy: 0.14150252751701228
+INFO:root:Epoch: 51 TD_loss: -9.528938263034487 Avg_reward: -7.64745688379627 Avg_entropy: 0.11190205363852672
+INFO:root:Epoch: 52 TD_loss: 11.220944658148893 Avg_reward: 27.4350207890171 Avg_entropy: 0.14384958209146667
+INFO:root:Epoch: 53 TD_loss: -6.861503279000786 Avg_reward: 47.85413049390955 Avg_entropy: 0.139478149350816
+INFO:root:Epoch: 54 TD_loss: 7.791247847581727 Avg_reward: -1.7384798345834018 Avg_entropy: 0.12262381469933985
+INFO:root:Epoch: 55 TD_loss: -6.211284172153357 Avg_reward: 44.77196996167323 Avg_entropy: 0.12807103041475063
+INFO:root:Epoch: 56 TD_loss: 0.3844300198851004 Avg_reward: 29.489288228805794 Avg_entropy: 0.11843367233133646
+INFO:root:Epoch: 57 TD_loss: -0.5999772869225827 Avg_reward: 27.20854178606303 Avg_entropy: 0.10807121406184873
+INFO:root:Epoch: 58 TD_loss: -1.3989044559326165 Avg_reward: -24.218577290134064 Avg_entropy: 0.1114110599106002
+INFO:root:Epoch: 59 TD_loss: 8.146188139445957 Avg_reward: 58.87084943562175 Avg_entropy: 0.12590687168405473
+INFO:root:Epoch: 60 TD_loss: -142.39891057356994 Avg_reward: -572.35735729048 Avg_entropy: 0.11784478336288019
+INFO:root:Epoch: 61 TD_loss: 0.9238975359383591 Avg_reward: 18.666695628571908 Avg_entropy: 0.13044844107574816
+INFO:root:Epoch: 62 TD_loss: 3.129191662743991 Avg_reward: 52.91390993667388 Avg_entropy: 0.1485101486587927
+INFO:root:Epoch: 63 TD_loss: -2.6509600885871185 Avg_reward: 14.638143173796864 Avg_entropy: 0.14809305369062817
+INFO:root:Epoch: 64 TD_loss: 7.633680359072842 Avg_reward: 19.593570487122843 Avg_entropy: 0.11749208245234811
+INFO:root:Epoch: 65 TD_loss: -21.803431248648398 Avg_reward: 5.448357100071428 Avg_entropy: 0.14234108632777226
+INFO:root:Epoch: 66 TD_loss: 1.1843217901846048 Avg_reward: -6.659878547679681 Avg_entropy: 0.10517657729236737
+INFO:root:Epoch: 67 TD_loss: 4.9839012985920155 Avg_reward: 31.197323512262884 Avg_entropy: 0.12500958068189727
+INFO:root:Epoch: 68 TD_loss: -21.93675037967788 Avg_reward: 2.1131581778686948 Avg_entropy: 0.1385049777999149
+INFO:root:Epoch: 69 TD_loss: -5.3589754205727775 Avg_reward: -45.43394811064631 Avg_entropy: 0.15012307137462186
+INFO:root:Epoch: 70 TD_loss: -7.159746227159071 Avg_reward: 16.786779036871557 Avg_entropy: 0.13672497801120892
+INFO:root:Epoch: 71 TD_loss: 5.59124630251313 Avg_reward: 37.04988099706739 Avg_entropy: 0.13430453397731731
+INFO:root:Epoch: 72 TD_loss: 3.142831733874297 Avg_reward: 53.77716791217367 Avg_entropy: 0.13883892701937717
+INFO:root:Epoch: 73 TD_loss: -0.9438587740316656 Avg_reward: -18.633428722130624 Avg_entropy: 0.11967171191034111
+INFO:root:Epoch: 74 TD_loss: -9.316232704721894 Avg_reward: 17.527431541793 Avg_entropy: 0.11665688470267835
+INFO:root:Epoch: 75 TD_loss: 1.991138143566987 Avg_reward: 28.836757771487086 Avg_entropy: 0.14445199242298765
+INFO:root:Epoch: 76 TD_loss: 0.3620420385396486 Avg_reward: 40.87520967994383 Avg_entropy: 0.1387782903455432
+INFO:root:Epoch: 77 TD_loss: 3.979934544167547 Avg_reward: 50.50165851955385 Avg_entropy: 0.1522932450952893
+INFO:root:Epoch: 78 TD_loss: -14.585988678100527 Avg_reward: -28.06791036789128 Avg_entropy: 0.11287067495459886
+INFO:root:Epoch: 79 TD_loss: -11.842964829259225 Avg_reward: -24.70108285596881 Avg_entropy: 0.11937114701218136
+INFO:root:Epoch: 80 TD_loss: -0.5519190973210508 Avg_reward: 31.898965638477787 Avg_entropy: 0.13407488312135596
+INFO:root:Epoch: 81 TD_loss: -6.515081313081629 Avg_reward: 18.639554193959647 Avg_entropy: 0.13036268666661793
+INFO:root:Epoch: 82 TD_loss: -122.93794719953692 Avg_reward: -601.5397619206033 Avg_entropy: 0.13589173336411325
+INFO:root:Epoch: 83 TD_loss: 6.0294235761767725 Avg_reward: 42.0406246653448 Avg_entropy: 0.12500307432845853
+INFO:root:Epoch: 84 TD_loss: -2.636791081499845 Avg_reward: 25.825802048321663 Avg_entropy: 0.12722982798738466
+INFO:root:Epoch: 85 TD_loss: 3.958791381012346 Avg_reward: 40.437623423640446 Avg_entropy: 0.16949865094516275
+INFO:root:Epoch: 86 TD_loss: 9.171517627989873 Avg_reward: 33.31287959130223 Avg_entropy: 0.11701637490703361
+INFO:root:Epoch: 87 TD_loss: -17.41746205857027 Avg_reward: -24.508035035937045 Avg_entropy: 0.10151320217043715
+INFO:root:Epoch: 88 TD_loss: 15.615727571784861 Avg_reward: 6.419109205960652 Avg_entropy: 0.13391505929146713
+INFO:root:Epoch: 89 TD_loss: -9.136732168036476 Avg_reward: 28.849835947523534 Avg_entropy: 0.14638138832741535
+INFO:root:Epoch: 90 TD_loss: -1.3424394259600168 Avg_reward: -34.99162038993959 Avg_entropy: 0.13095414626011448
+INFO:root:Epoch: 91 TD_loss: -14.118870372425267 Avg_reward: -53.70548103285736 Avg_entropy: 0.13228394057588544
+INFO:root:Epoch: 92 TD_loss: 9.204105519651636 Avg_reward: 26.7166865907499 Avg_entropy: 0.14059940422206077
+INFO:root:Epoch: 93 TD_loss: -3.3614204766928 Avg_reward: 21.00352583492328 Avg_entropy: 0.12047431680062771
+INFO:root:Epoch: 94 TD_loss: 11.216531176073024 Avg_reward: 14.391535728032864 Avg_entropy: 0.13301832310736064
+INFO:root:Epoch: 95 TD_loss: -5.861179580261143 Avg_reward: 40.07252533567386 Avg_entropy: 0.15875309574660532
+INFO:root:Epoch: 96 TD_loss: 7.261583934805094 Avg_reward: 37.5591191254298 Avg_entropy: 0.1404237172887109
+INFO:root:Epoch: 97 TD_loss: 0.8355287398863241 Avg_reward: -9.728372680767484 Avg_entropy: 0.10728374149389286
+INFO:root:Epoch: 98 TD_loss: -21.88398366476797 Avg_reward: 9.188465339987363 Avg_entropy: 0.15516778811131735
+INFO:root:Epoch: 99 TD_loss: 3.4720714472154226 Avg_reward: 48.31938028252988 Avg_entropy: 0.1627893394602403
+INFO:root:Epoch: 100 TD_loss: -3.609638933076396 Avg_reward: 5.92775556567542 Avg_entropy: 0.15724341886025067
+WARNING:tensorflow:Issue encountered when serializing data_preprocessing.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'NoneType' object has no attribute 'name'
+WARNING:tensorflow:Issue encountered when serializing data_augmentation.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'NoneType' object has no attribute 'name'
+INFO:root:Model saved in file: ./results/nn_model_ep_100.ckpt
+INFO:root:Epoch: 101 TD_loss: -12.759609929286116 Avg_reward: 5.747074786598455 Avg_entropy: 0.1514231763174148
+INFO:root:Epoch: 102 TD_loss: 5.516144757966969 Avg_reward: 22.040845002250553 Avg_entropy: 0.1187612447542202
+INFO:root:Epoch: 103 TD_loss: 1.9153710346502903 Avg_reward: 43.273949083539655 Avg_entropy: 0.15082561656121649
+INFO:root:Epoch: 104 TD_loss: -0.03157881868025268 Avg_reward: 33.89364751587911 Avg_entropy: 0.1305802717633233
+INFO:root:Epoch: 105 TD_loss: -10.56567346510609 Avg_reward: 17.88302907842222 Avg_entropy: 0.12664239047107087
+INFO:root:Epoch: 106 TD_loss: 7.577976109054799 Avg_reward: 35.240583636583715 Avg_entropy: 0.13570709430283703
+INFO:root:Epoch: 107 TD_loss: 3.088546374709888 Avg_reward: 41.258939700835484 Avg_entropy: 0.1658136383749515
+INFO:root:Epoch: 108 TD_loss: -10.283323125199152 Avg_reward: 16.38651988113979 Avg_entropy: 0.12420282167552794
+INFO:root:Epoch: 109 TD_loss: -6.251389715229918 Avg_reward: 20.907747888107686 Avg_entropy: 0.13459586002758567
+INFO:root:Epoch: 110 TD_loss: 8.391991110503476 Avg_reward: 47.10528968068809 Avg_entropy: 0.14009670157874407
+INFO:root:Epoch: 111 TD_loss: -12.697426926852065 Avg_reward: 18.555472712781455 Avg_entropy: 0.14733295008317732
+INFO:root:Epoch: 112 TD_loss: -1.4625877973252157 Avg_reward: 36.638419374580636 Avg_entropy: 0.1193418367380094
+INFO:root:Epoch: 113 TD_loss: -11.897722392211849 Avg_reward: -38.61051574278297 Avg_entropy: 0.12382083405197358
+INFO:root:Epoch: 114 TD_loss: 5.583279898075141 Avg_reward: 42.03556169724253 Avg_entropy: 0.14133510125407195
+INFO:root:Epoch: 115 TD_loss: 0.41333818632403124 Avg_reward: 37.51884773405357 Avg_entropy: 0.12059176725131347
+INFO:root:Epoch: 116 TD_loss: -2.1543008006645095 Avg_reward: 19.38843451868663 Avg_entropy: 0.1269600128696754
+INFO:root:Epoch: 117 TD_loss: -12.004306382488274 Avg_reward: -98.94349703570286 Avg_entropy: 0.12108269085164658
+INFO:root:Epoch: 118 TD_loss: 5.2431738402676284 Avg_reward: 43.115288701515546 Avg_entropy: 0.16447543803355272
+INFO:root:Epoch: 119 TD_loss: -15.352348815420878 Avg_reward: 16.53858377671978 Avg_entropy: 0.12662423383884905
